@@ -1,4 +1,4 @@
 #!/bin/bash 
 
-k delete ns cnpg-system 
-k delete ns vector-db
+kubectl delete ns cnpg-system 
+kubectl delete ns vector-db
